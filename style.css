@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+.card-form {
+    width: 700px;
+    background: #a8d6d5;
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+}
+
+.header {
+    background: #e36a25;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    width: 60%;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+    color: #456;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #6f9e9c;
+    background: transparent;
+    padding: 10px 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #6f9e9c;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.small {
+    flex: 1;
+}
